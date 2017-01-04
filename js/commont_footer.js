@@ -1,0 +1,10 @@
+$(function(){
+	$.ajax({
+			type:"get",
+			url:"common_footer.html",
+			async:false,
+			success:function(data){
+				$("#contain").after(data);
+			}
+	})
+})
