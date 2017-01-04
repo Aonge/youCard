@@ -49,6 +49,7 @@ $(function(){
 			imgIndex = 3;
 			slidePan.css("left",-100*imgIndex+"%");
 			move(--imgIndex);
+//			console.log(imgIndex);
 		}else{
 			slidePan.animate({
 				left:-100*imgIndex+"%"
