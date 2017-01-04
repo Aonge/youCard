@@ -9,6 +9,6 @@ $(function(){
 	img.map(function(index,item){
 		$(item).attr("src",imgArr[index]);
 	});
-	var tag = $("#footer li");
+	var tag = $("#footer a");
 	tag.eq(0).addClass("page-active");
 })

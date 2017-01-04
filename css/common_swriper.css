@@ -5,11 +5,10 @@
 	position: relative;
 }
 .slide-pan{
-	width: 400%;
+	position: relative;
 	overflow: hidden;
 }
 .slide-pan>img{
-	width: 25%;
 	float: left;
 }
 .sw-ponit{
@@ -33,7 +32,7 @@
 	margin-left: 2%;
 	margin-right: 2%;
 }
-.sw-ponit .avctive{
+.sw-ponit .active{
 	border: 2px solid #f46259;
 	background-color: #f46259;
 }

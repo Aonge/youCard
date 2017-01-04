@@ -226,7 +226,7 @@
 	
 }
 .video{
-	padding-bottom: 5.5rem;
+	padding-bottom: 9rem;
 }
 .vd-title img{
 	position: relative;
@@ -271,15 +271,16 @@
 	background-color: rgba(0,0,0,0.5);
 	padding-left: 2%;
 }
-/*.vd-contain dl dd{
+.vd-contain dl dd{
 	width: 100%;
-}*/
+}
 .vd-contain dl dd span{
-	width: 50%;
+	width: 100%;
+	display: inline-block;
 	line-height: 1.8rem;
 	font-size: 1.5rem;
 	overflow: hidden;
 	text-overflow: ellipsis;
-	/*white-space: nowrap;*/
+	white-space: nowrap;
 	color: #555;
 }

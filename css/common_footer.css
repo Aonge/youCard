@@ -19,15 +19,15 @@
 	width: 25%;
 }
 #footer ul li i{
-	font-size: 3.5rem;
+	font-size: 3.3rem;
 }
 .foot-txt{
-	font-size: 2rem;
+	font-size: 1.8rem;
 	margin-top: 0.2rem;
 }
-#footer ul li:hover{
+#footer ul a:hover{
 	color: red;
 }
 .page-active{
-	color: red;
+	color: red ;
 }
