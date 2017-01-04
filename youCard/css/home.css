@@ -1,0 +1,286 @@
+
+/*头部*/
+.mg-btm{
+	margin-bottom: 1.2rem;
+}
+#head{
+	width: 100%;
+	background-color: #FFF;
+	position: fixed;
+	z-index: 10;
+	top: 0;
+	/*height: 10%;*/
+}
+#head .title{
+	width: 100%;
+	height: 100%;
+	font-size: 3.4rem;
+	text-align: center;
+	line-height: 5rem;
+	color: #d92a2a;
+	margin-left: 1.2rem;
+}
+#head .title .cate{
+	font-size: 4rem;
+	font-weight: bold;
+	position: absolute;
+	left: 3%;
+}
+
+/*内容部分*/
+#contain{
+	width: 100%;
+	overflow: hidden;
+	margin-top: 6.2rem;
+}
+
+/*礼包公告*/
+.present{
+	width: 100%;
+	background-color: #FFF;
+	padding-top: 2%;
+	padding-left: 3.5%;
+	overflow: hidden;
+}
+.pre-title{
+	width: 45%;
+	/*height: 3.4rem;*/
+	background-color: #f46259;
+	font-size: 2rem;
+	line-height: 3.4rem;
+	border-radius: 3rem;
+	color: #FFF;
+	position: relative;
+}
+.pre-title span:nth-of-type(1){
+	display: inline-block;
+	width: 2.8rem;
+	height: 2.8rem;
+	background-color: #FFF;
+	border-radius: 50%;
+	position: absolute;
+	left: 2%;
+	top: 0.3rem;
+	background-image: url(../img/home_pic/lb.png);
+	background-repeat: no-repeat;
+	background-size: 55% 65%;
+	background-position: center center;
+}
+.pre-title span:nth-of-type(2){
+	margin-left: 30%;
+}
+/*内容展示1*/
+.pre-one{
+	width: 100%;
+	/*display: flex;*/
+	justify-content: space-around;
+	margin-top: 1.2rem;
+}
+.pre-one dl{
+	float: left;
+	width: 20%;
+	margin-right: 4.1%;
+}
+.one-pic img,.two-pic img{
+	width: 100%;
+}
+.one-txt{
+	font-size: 1.6rem;
+	width: 100%;
+	text-align: center;
+	line-height: 1.8rem;
+}
+.one-txt>div:nth-of-type(2){
+	font-size: 1.3rem;
+	color:#ababab;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.one-txt>div:nth-of-type(2)>span{
+	color:#f46259;
+}
+.pre-two{
+	width: 100%;
+	overflow: hidden;
+}
+.two-box{
+	width: 100%;
+	clear: both;
+}
+.two-pic{
+	width: 20%;
+	float: left;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.two-txt{
+	width: 80%;
+	padding-top:6%;
+	margin-left: 22%;
+}
+.txt-top{
+	width: 100%;
+}
+.two-txt span{
+	display: inline-block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.txt-top span:nth-of-type(1){
+	width: 60%;
+	font-size: 2rem;
+}
+.txt-top span:nth-of-type(2){
+	width: 30%;
+}
+.two-txt>span:nth-of-type(1){
+	width: 100%;
+	font-size: 1.6rem;
+	line-height: 4rem;
+	color: #ababab;
+}
+.txt-bottom{
+	width: 93%;
+	text-align: end;
+	color:#f57c75;
+}
+/*游戏详情*/
+.game,.gm-title{
+	width: 100%;
+	clear: both;
+	padding-left: 3%;
+	padding-top: 0.6rem;
+	padding-bottom: 1rem;
+	background-color: #FFF;
+}
+.gm-title{
+	background-color:transparent;
+	padding-left: 1.5rem;
+	position: relative;
+	bottom: -1.5rem;
+	z-index: 2;
+}
+.gm-title img{
+	width: 6rem;
+	vertical-align: middle;
+	border-bottom: 0.3rem solid #FFF;
+	border-radius: 50%;
+}
+.gm-title>span{
+	font-size: 2.4rem;
+}
+.gm-pic{
+	position: relative;
+}
+.gm-pic img{
+	width: 94%;
+}
+.gm-pic dd{
+	width: 92%;
+	position: absolute;
+	font-size: 1.6rem;
+	color: #FFF;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.8);
+	line-height: 3rem;
+	padding-left: 2%;
+}
+.gm-list{
+	width: 100%;
+	padding-left: 1.5%;
+}
+.gm-list li{
+	width: 90%;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	border-bottom: 1px solid #ABABAB;
+}
+.gm-list li:nth-of-type(2){
+	border: 0;
+}
+.gm-list img{
+	width: 20%;
+	vertical-align: middle;
+}
+.gm-list span{
+	font-size: 1.6rem;
+}
+.more{
+	margin-left: 1.5%;
+	width: 90%;
+	background-color: #fe776f;
+	text-align: center;
+	color: #FFF;
+	font-size: 2rem;
+	line-height: 4rem;
+}
+.video,.vd-title{
+	width: 100%;
+	padding-left: 3%;
+	padding-top: 0.6rem;
+	padding-bottom: 1rem;
+	background-color: #FFF;
+	
+}
+.video{
+	padding-bottom: 9rem;
+}
+.vd-title img{
+	position: relative;
+	top: 0.5rem;
+	margin-right: 0.5rem;
+}
+.vd-title span{
+	font-size: 2.4rem;
+}
+.vd-contain{
+	width: 100%;
+	overflow: hidden;
+}
+.vd-contain dl{
+	width: 45%;
+	float: left;
+	margin-right: 3.5%;
+	margin-bottom: 3.5%;
+}
+.vd-contain dl dt{
+	position: relative;
+}
+.vd-contain dl img:nth-of-type(1){
+	width: 100%;
+	
+}
+.vd-contain dl img:nth-of-type(2){
+	width: 20%;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	margin-left: -10%;
+}
+.vd-contain dl dt span{
+	position: absolute;
+	display: inline-block;
+	line-height: 1.9rem;
+	font-size: 1rem;
+	bottom: 2px;
+	color: #FFFFFF;
+	width: 98%;
+	background-color: rgba(0,0,0,0.5);
+	padding-left: 2%;
+}
+.vd-contain dl dd{
+	width: 100%;
+}
+.vd-contain dl dd span{
+	width: 100%;
+	display: inline-block;
+	line-height: 1.8rem;
+	font-size: 1.5rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #555;
+}
