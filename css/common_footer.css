@@ -1,7 +1,29 @@
-object{
-	background-color: #FFF;
-}
 #footer{
 	width: 100%;
 	background-color: #FFF;
+	overflow: hidden;
+	padding-bottom: 0.5rem;
+	padding-top: 0.5rem;
+}
+#footer ul{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+#footer ul li{
+	text-align: center;
+	width: 25%;
+}
+#footer ul li i{
+	font-size: 3.5rem;
+}
+.foot-txt{
+	font-size: 2rem;
+	margin-top: 0.2rem;
+}
+#footer ul li:hover{
+	color: red;
+}
+.page-active{
+	color: red;
 }
