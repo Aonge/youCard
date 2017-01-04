@@ -1,0 +1,161 @@
+html,body,div,ul,li,h3,dl,dd,dt,span,img,strong,i,button{
+	margin: 0;
+	padding: 0;	
+	}
+ul,li{
+		list-style: none;
+	}
+	html,body{
+		width: 100%;
+		height: 100%;
+		font-size: 10px;	
+		background: #e2e2e2;	
+	}
+	#contain{
+		margin-top: 12px;		
+		width: 100%;	
+		height: 100%;	
+	}
+	.bag-top{
+		width: 100%;
+		position: relative;
+	}
+	.bag-top img{
+		width: 100%;
+		vertical-align: bottom;
+	}
+	#cover-txt{
+		width: 100%;
+		height: 100px;
+		background: #000000;	
+		color: #FFFFFF;
+		position: absolute;
+		bottom: 0px;
+		opacity: 0.5;
+	}
+	#cover-txt h3{
+		font-size: 4rem;
+		color: #FFFFFF;
+		margin-left: 5%;
+		margin-top: 10px;
+	}
+	.cover-txt2{
+		width: 90%;
+		margin-left: 5%;
+		margin-top: 10px;
+		display: flex;
+		justify-content: space-between;
+	}
+	.cover-txt2 span{
+		font-size: 3rem;
+	}
+	.cover-txt2 span i{
+
+		color:orange;
+		font-style: normal;
+	}
+	
+	
+	/*中间内容*/
+	.bag-content{
+		width: 100%;
+		background: #FFFFFF;
+		margin-top: 20px;
+	}
+	.content-txt1{
+		width: 90%;
+		margin-left: 5%;
+		padding-top: 60px;
+		font-size: 4.5rem;
+	}
+	.content-input{
+		width: 90%;
+		margin-left: 5%;
+		margin-top: 50px;
+	}
+	.content-input input{
+		width: 72%;
+		height: 100px;
+		border: 0;		
+		font-size: 5rem;
+		background:#e2e2e2 ;
+		color: gray;
+	}
+	.content-input button{
+		width: 24%;
+		height: 100px;
+		border: 1px  #FE776F solid;
+		font-size: 5rem;
+		background: #FE776F;
+		border-radius: 10px;
+		color: #FFFFFF;
+		margin-left: 3%;
+	}
+	.content-txt2{
+		width: 90%;
+		margin-left: 5%;
+		padding-top: 50px;
+		font-size: 4.5rem;
+		border-bottom: 1px #e2e2e2 solid;
+		padding-bottom: 50px;
+	}
+	.content-txt2 a{
+		color: red;
+	}
+	.bag-txt3{
+		width: 90%;
+		margin-left:5%;		
+		padding-bottom: 60px;
+	}
+	dl dt{
+		font-size: 4.8rem;
+		width: 100%;
+		margin: 60px 0;
+	}
+	dl dd{
+		font-size: 4rem;
+		color: #ababab;
+		line-height: 60px;
+	}
+	
+	/*尾部*/
+	.bag-foot{
+		width: 100%;
+		background: #FFFFFF;
+		margin-top: 20px;
+		position: relative;
+		padding-bottom: 90px;
+	}
+	.bag-foot img{
+		width: 20%;
+		margin-left: 5%;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.bag-foot strong{
+		position: absolute;
+		top: 20%;
+		left:27%;
+		font-size:4.5rem;
+	}
+	.bag-foot span{
+		position: absolute;
+		top: 44%;
+		left:27%;
+		font-size:3.5rem;
+		color:#FE776F ;
+	}
+	.bag-foot button{
+		width: 22%;
+		height: 100px;
+		border: 1px  #FE776F solid;
+		font-size: 5rem;
+		background: #FE776F;
+		border-radius: 10px;
+		color: #FFFFFF;
+		position: absolute;
+		top: 25%;
+		right: 5%;
+	}
+	
+	
