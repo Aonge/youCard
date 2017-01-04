@@ -1,4 +1,9 @@
 /*轮播图*/
+#contain .swiper{
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
 .slide-pan{
 	width: 400%;
 	overflow: hidden;
