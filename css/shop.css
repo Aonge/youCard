@@ -1,0 +1,98 @@
+html,body,div,ul,li,h4,span,img,strong,i,button{
+	margin: 0;
+	padding: 0;
+	
+	}
+ul,li{
+		list-style: none;
+	}
+	html,body{
+		width: 100%;
+		height: 100%;
+		font-size: 10px;
+	}
+	#contain{
+		height: 100%;
+		width: 100%;
+		background: #e2e2e2;	
+	}
+	
+	/*游戏礼包*/
+.w-shopList{
+	background: white;
+	margin-top: 12px;
+	width: 100%;;
+	padding-bottom: 12px;
+	overflow: hidden;
+	text-align: center;
+}
+.w-shopList	li{
+	width: 25%;
+	float: left;	
+}
+.w-shopList	li img{
+	margin-top: 15px;
+}
+.w-shopMin{
+	width: 80%;
+}
+.w-minTxt{	
+	font-size: 1.6rem;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+
+
+/*热门礼包*/
+.w-hotWrap{
+	width: 100%;
+	background: white;
+	overflow: hidden;
+	margin-top: 10px;
+	padding-bottom: 85px;
+}
+h4{
+	height: 30px;
+	font-size: 1.8rem;
+	margin-left: 10%;
+	line-height: 30px;
+}
+.w-gameBox{
+	margin-top: 10px;
+	float: left;
+	margin-left: 6%;
+	width: 41%;
+}	
+.w-gameBox dt img{
+	width: 100%;	
+}
+.w-gameBox dd{
+	margin-top: 10px;
+	}
+.w-gameBox dd i{
+	width: 100%;	
+	font-style: normal;
+	font-size:1.2rem;
+	color: #888888;
+}
+.w-gameBox dd strong{
+	font-style: normal;
+	font-size:1.4rem;
+	margin-top: 20px;
+}
+.w-gameBox dd button{
+	width: 100%;
+	height: 35px;;
+	font-size:1.4rem;
+	background: #fe776f;
+	color: #FFFFFF;
+	border: 1px #fe776f solid;
+	border-radius: 6px;
+	font-size: 1.6rem;	
+}
+
+
+
+
+
