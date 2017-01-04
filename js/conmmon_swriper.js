@@ -1,0 +1,10 @@
+$(function(){
+	$.ajax({
+			type:"get",
+			url:"common_swriper.html",
+			async:false,
+			success:function(data){
+				$("#contain").prepend(data);
+			}
+	})
+})

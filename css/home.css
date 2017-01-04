@@ -25,13 +25,13 @@ body{
 	color: #d92a2a;
 	margin-left: 1.2rem;
 }
-.title span:nth-of-type(1):before{
-	content: url(../img/home_pic/touch.png);
-}
-.title span:nth-of-type(1){
+#head .title .cate{
+	font-size: 4rem;
+	font-weight: bold;
 	position: absolute;
 	left: 3%;
 }
+
 /*内容部分*/
 #contain{
 	width: 100%;
@@ -43,40 +43,7 @@ body{
 	overflow: hidden;
 	position: relative;
 }
-/*轮播图*/
-.slide-pan{
-	width: 400%;
-	overflow: hidden;
-}
-.slide-pan>img{
-	width: 25%;
-	float: left;
-}
-.sw-ponit{
-	display: flex;
-	width: 100%;
-	height: 10%;
-	clear: both;
-	position: absolute;
-	bottom: 5%;
-	justify-content: center;
-}
-.sw-ponit span{
-	display: inline-block;
-	width: 10px;
-	height: 10px;
-	border: 2px solid #FFF;
-	background-color: rgba(255,255,255,0.3);
-	border-radius: 50%;
-}
-.sw-ponit span:nth-of-type(2){
-	margin-left: 2%;
-	margin-right: 2%;
-}
-.sw-ponit .avctive{
-	border: 2px solid #f46259;
-	background-color: #f46259;
-}
+
 /*礼包公告*/
 .present{
 	width: 100%;
