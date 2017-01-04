@@ -4,6 +4,10 @@
 	overflow: hidden;
 	padding-bottom: 0.5rem;
 	padding-top: 0.5rem;
+	position: fixed;
+	z-index: 10;
+	bottom: 0;
+	border-top: 1px #919191 solid;
 }
 #footer ul{
 	width: 100%;
