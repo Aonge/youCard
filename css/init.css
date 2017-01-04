@@ -1,0 +1,11 @@
+/*初始化*/
+html,body,div,dl,ul,li,dt,dd{
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	list-style: none;
+}
+html{
+	font-size: 62.5%;
+}
