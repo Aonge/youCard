@@ -224,8 +224,7 @@
 	line-height: 4rem;
 }
 
-.video,
-.vd-title {
+.video,.vd-title {
 	
 	padding-left: 3%;
 	padding-top: 0.6rem;
@@ -287,31 +286,14 @@
 	padding-left: 2%;
 }
 
-
-/*.vd-contain dl dd{
-	width: 100%;
-}*/
-
 .vd-contain dl dd span {
 	width: 50%;
 	line-height: 1.8rem;
 	font-size: 1.5rem;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	/*white-space: nowrap;*/
 	color: #555;
 }
-.present .vd-title i{
-	font-size: 2.5rem;
-	padding: 0.4rem;
+.video .vd-title i,.present .vd-title i{
+	font-size:2.8rem ;
 	color:#fe776f;
-}
-.video .vd-title i{
-	font-size:1.4rem ;
-	color:white;
-	background: #fe776f;
-	border-radius:50% ;
 	padding: 0.4rem;
-	text-align: center;
-	vertical-align:super;
 }
