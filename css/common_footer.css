@@ -5,9 +5,9 @@
 	padding-bottom: 0.5rem;
 	padding-top: 0.5rem;
 	position: fixed;
-	z-index: 10;
 	bottom: 0;
-	border-top: 1px #919191 solid;
+	z-index: 10;
+	border-top: 1px solid #919191;
 }
 #footer ul{
 	width: 100%;
@@ -19,15 +19,16 @@
 	width: 25%;
 }
 #footer ul li i{
-	font-size: 3.5rem;
+
+	font-size: 3.3rem;
 }
 .foot-txt{
-	font-size: 2rem;
+	font-size: 1.8rem;
 	margin-top: 0.2rem;
 }
-#footer ul li:hover{
+#footer ul a:hover{
 	color: red;
 }
 .page-active{
-	color: red;
+	color: red ;
 }
