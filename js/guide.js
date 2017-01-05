@@ -70,7 +70,7 @@ $(function(){
 					left:18+"%"
 				},600,"linear");
 			giftThree.animate({
-					right:50-giftOne.offset().width/body.offset().width*100/2+2+"%"
+					right:50-giftOne.offset().width/body.offset().width*100/2+"%"
 			},600,"linear",function(){
 					phoneThree.animate({
 						opacity:1
