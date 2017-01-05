@@ -1,18 +1,6 @@
-html,body,div,ul,li,h3,dl,dd,dt,span,img,strong,i,button{
-	margin: 0;
-	padding: 0;	
-	}
-ul,li{
-		list-style: none;
-	}
-	html,body{
-		width: 100%;
-		height: 100%;
-		font-size: 10px;	
-		background: #e2e2e2;	
-	}
+
 	#contain{
-		margin-top: 12px;		
+		/*margin-top: 1.2rem;*/		
 		width: 100%;	
 		height: 100%;	
 	}
@@ -26,7 +14,7 @@ ul,li{
 	}
 	#cover-txt{
 		width: 100%;
-		height: 100px;
+		height: 4rem;
 		background: #000000;	
 		color: #FFFFFF;
 		position: absolute;
@@ -34,20 +22,20 @@ ul,li{
 		opacity: 0.5;
 	}
 	#cover-txt h3{
-		font-size: 4rem;
+		font-size: 1.8rem;
 		color: #FFFFFF;
 		margin-left: 5%;
-		margin-top: 10px;
+		margin-top: 0.6rem;
+		margin-bottom: 0.6rem;		
 	}
 	.cover-txt2{
 		width: 90%;
 		margin-left: 5%;
-		margin-top: 10px;
 		display: flex;
 		justify-content: space-between;
 	}
 	.cover-txt2 span{
-		font-size: 3rem;
+		font-size: 1rem;
 	}
 	.cover-txt2 span i{
 
@@ -60,102 +48,113 @@ ul,li{
 	.bag-content{
 		width: 100%;
 		background: #FFFFFF;
-		margin-top: 20px;
+		margin-top: 1.2rem;
 	}
 	.content-txt1{
 		width: 90%;
 		margin-left: 5%;
-		padding-top: 60px;
-		font-size: 4.5rem;
+		padding-top: 2rem;
+		font-size: 2rem;
+		color: #888;
 	}
 	.content-input{
 		width: 90%;
 		margin-left: 5%;
-		margin-top: 50px;
+		margin-top: 2rem;
 	}
 	.content-input input{
-		width: 72%;
-		height: 100px;
-		border: 0;		
-		font-size: 5rem;
+		text-align: center;
+		width: 70%;
+		height: 3.5rem;
+		border: 0;	
+		font-size: 2rem;
 		background:#e2e2e2 ;
-		color: gray;
+		color: #555;
 	}
 	.content-input button{
-		width: 24%;
-		height: 100px;
-		border: 1px  #FE776F solid;
-		font-size: 5rem;
+		width: 23.6%;
+		height: 3.5rem;
+		border:0;
+		font-size: 2rem;
 		background: #FE776F;
-		border-radius: 10px;
+		border-radius: 0.3rem;
 		color: #FFFFFF;
 		margin-left: 3%;
+		outline: none;
 	}
 	.content-txt2{
+		text-align: center;
 		width: 90%;
 		margin-left: 5%;
-		padding-top: 50px;
-		font-size: 4.5rem;
+		padding-top: 2rem;
+		font-size: 1.6rem;
 		border-bottom: 1px #e2e2e2 solid;
-		padding-bottom: 50px;
+		padding-bottom: 1.5rem;
+		color: #555;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
 	}
 	.content-txt2 a{
 		color: red;
+		text-decoration: underline;
 	}
 	.bag-txt3{
 		width: 90%;
 		margin-left:5%;		
-		padding-bottom: 60px;
+		padding-bottom: 2.3rem;
+		padding-left: 1%;
+		padding-right: 1%;
 	}
 	dl dt{
-		font-size: 4.8rem;
+		font-size: 2.5rem;
 		width: 100%;
-		margin: 60px 0;
+		margin-top: 2rem;
+		margin-bottom: 1rem;
 	}
 	dl dd{
-		font-size: 4rem;
+		font-size: 1.6rem;
 		color: #ababab;
-		line-height: 60px;
+		line-height: 2rem;
 	}
 	
 	/*尾部*/
 	.bag-foot{
 		width: 100%;
 		background: #FFFFFF;
-		margin-top: 20px;
+		margin-top: 1.2rem;
 		position: relative;
-		padding-bottom: 90px;
+		padding-top: 2rem;
+		padding-bottom: 6rem;
 	}
 	.bag-foot img{
 		width: 20%;
 		margin-left: 5%;
-		margin-top: 30px;
-		margin-bottom: 30px;
+		margin-bottom: 2rem;
 	}
 	.bag-foot strong{
 		position: absolute;
-		top: 20%;
+		top: 17%;
 		left:27%;
-		font-size:4.5rem;
+		font-size:2rem;
 	}
 	.bag-foot span{
 		position: absolute;
-		top: 44%;
+		top: 35%;
 		left:27%;
-		font-size:3.5rem;
+		font-size:1.2rem;
 		color:#FE776F ;
 	}
 	.bag-foot button{
 		width: 22%;
-		height: 100px;
-		border: 1px  #FE776F solid;
-		font-size: 5rem;
+		height: 3.5rem;
+		border: 0;
+		font-size: 2rem;
 		background: #FE776F;
-		border-radius: 10px;
+		border-radius: 0.3rem;
 		color: #FFFFFF;
 		position: absolute;
-		top: 25%;
+		top: 17%;
 		right: 5%;
+		outline: none;
 	}
-	
-	
