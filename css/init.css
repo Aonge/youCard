@@ -1,5 +1,5 @@
 /*初始化*/
-html,body,div,dl,ul,li,dt,dd{
+html,body,div,dl,ul,li,dt,dd,span,img,strong,i,button{
 	margin: 0;
 	padding: 0;
 }

@@ -1,47 +1,11 @@
-/*头部*/
-
-.mg-btm {
-	margin-bottom: 0.8rem;
-}
-
-#head {
-	width: 100%;
-	background-color: #FFF;
-	position: fixed;
-	z-index: 10;
-	top: 0;
-	/*height: 10%;*/
-}
-
-#head .title {
-	width: 100%;
-	height: 100%;
-	font-size: 3.4rem;
-	text-align: center;
-	line-height: 5rem;
-	color: #d92a2a;
-	margin-left: 1.2rem;
-}
-
-#head .title .cate {
-	font-size: 4rem;
-	font-weight: bold;
-	position: absolute;
-	left: 3%;
-}
-
-
 /*内容部分*/
-
 #contain {
 	width: 100%;
 	overflow: hidden;
 	margin-top: 6.2rem;
 }
 
-
 /*礼包公告*/
-
 .present {
 	width: 100%;
 	background-color: #FFF;
@@ -80,9 +44,7 @@
 	margin-left: 30%;
 }
 
-
 /*内容展示1*/
-
 .pre-one {
 	width: 100%;
 	/*display: flex;*/
