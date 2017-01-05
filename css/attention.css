@@ -1,0 +1,83 @@
+html,body,div,ul,li,span,img,strong,i,button{
+	margin: 0;
+	padding: 0;
+	
+	}
+ul,li{
+		list-style: none;
+	}
+	html,body{
+		width: 100%;
+		height: 100%;
+		background: #f9f9f9;
+		font-size: 10px;		
+	}
+	.w-attentionBox{
+		width: 100%;
+		height: 100%;
+		padding-bottom: 85px;
+		margin-top: 12px;
+	}
+.w-attentionList{
+	width: 100%;
+	height:16%;
+	background:#FFFFFF;
+	position: relative;
+	border-bottom: 1px #dddddd solid;
+	overflow: hidden;
+}
+.game-img{
+	height: 78%;
+	position: absolute;
+	top: 11%;
+	left:5%;
+}
+.game-name{
+	position: absolute;
+	top: 29%;
+	left: 28%;
+	font-size: 1.6rem;
+}
+.game-rank{
+	position: absolute;
+	top: 60%;
+	left: 28%;
+	font-size: 1.4rem;
+	font-style: normal;
+}
+.game-star{
+	width: 15%;
+	position: absolute;
+	top: 63%;
+	left:48%;	
+}
+button{
+	position: absolute;	
+	width: 24%;
+	height: 34%;
+	right: 5%;
+	top:33%;
+	border-radius:6px;
+	font-size: 1.6rem;
+	outline: none;
+	border:1px #f56243 solid;
+	
+	
+	background: #f56243;	
+	color: white;
+}
+/*取消关注后button效果*/
+/*button{
+	position: absolute;	
+	width: 24%;
+	height: 34%;
+	right: 5%;
+	top:33%;
+	border-radius:6px;
+	font-size: 2rem;
+	outline: none;
+	border:1px #f56243 solid;
+	
+	background: #FFFFFF;
+	color: #f56243;	
+}*/
