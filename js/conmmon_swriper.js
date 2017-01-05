@@ -1,12 +1,12 @@
 $(function(){
-	$.ajax({
-			type:"get",
-			url:"common_swriper.html",
-			async:false,
-			success:function(data){
-				$("#contain").prepend(data);
-			}
-	});
+//	$.ajax({
+//			type:"get",
+//			url:"common_swriper.html",
+//			async:false,
+//			success:function(data){
+//				$("#contain").prepend(data);
+//			}
+//	});
 	var slidePan = $(".slide-pan");
 	var img = $(".slide-pan>img");
 	var pagePoint = $(".sw-ponit span");
