@@ -1,65 +1,58 @@
-html,body,div,span,img{
-	margin: 0;
-	padding: 0;
-	}
-			
-			html,
+	
 			body {
 				width: 100%;
 				height: 100%;
-				font-size: 10px;
+				overflow: hidden;
+				/*background-position-x: 50%;*/
+				position: relative;       
 			}
-			
-			#w-show {
-				width: 100%;
+			#slide{
+				width: 300%;
 				height: 100%;
-				/*overflow: hidden;*/
 				position: relative;
 			}
-			
-			.w-wrap {
-				position: absolute;
-				width: 100%;
+			#slide .w-wrap {
+				width: 33.33%;
 				height: 100%;
-				background-size: 100% 100%;              
+				float: left;
+				background-size: cover;
+				position: relative; 
+				overflow: hidden;      
 			}
 			
 			.w-wrap1 {
 				background-image: url(../img/guide/bg1.png);
-				opacity:1;	
 			}
 			
 			.w-wrap2 {
-				background-image: url(../img/guide/bg2.png);
-				opacity: 0;					
+				background-image: url(../img/guide/bg2.png);					
 			}
 			
 			.w-wrap3 {
-				background-image: url(../img/guide/bg3.png);
-				opacity:0;				
+				background-image: url(../img/guide/bg3.png);				
 			}
 			/*页面1*/
-			
-			.w-txt1 {
+			.w-txt1{
 				width: 60%;
 				position: absolute;
 				top: 8%;
-				left: 20%;
+				left: -60%;
+				transition: all 0.3s linear;
 			}
-			
 			.w-iphone1 {
 				width: 90%;
 				position: absolute;
-				top: 28%;
+				top: 30%;
 				left: 5%;
+				opacity: 0;
 			}
-			
 			.w-gift1 {
 				color: whitesmoke;
 				position: absolute;
 				top: 21%;
-				left: 20%;
+				right: -55%;
 				font-size: 1.4rem;
+				transition: all 0.3s linear 0s;
 			}
 			/*页面2*/
 			
@@ -67,63 +60,57 @@ html,body,div,span,img{
 				width: 64%;
 				position: absolute;
 				top: 8%;
-				left: 18%;
+				left: -65%;
+				transition: all 0.3s linear 0s;
 			}
-			
 			.w-iphone2 {
-				width: 74%;
+				width: 65%;
 				position: absolute;
 				top: 25%;
-				left: 13%;
+				left: 18%;
+				opacity: 0;
 			}
 			
 			.w-gift2 {
 				color: whitesmoke;
 				position: absolute;
-				top: 93%;
-				left: 20%;
+				bottom: 1%;
+				right: -55%;
 				font-size: 1.4rem;
+				transition: all 0.3s linear 0s;
 			}
-			
-			.w-new {
+			.w-new,.w-dujia {
 				width: 26%;
 				position: absolute;
-				top: 62%;
-				left: 72%;
+				right: 2%;
+				opacity: 0;
+				transition: opacity 0.3s linear;
 			}
-			
-			.w-dujia {
-				width: 26%;
-				position: absolute;
-				top: 40%;
-				left: 72%;
-			}
-			
 			.w-hot {
 				width: 26%;
 				position: absolute;
-				top: 55%;
 				left: 2%;
+				opacity: 0;
+				transition: opacity 0.5s linear;
 			}
 			/*页面3*/
-			
 			.w-txt3 {
 				width: 60%;
 				position: absolute;
 				top: 8%;
-				left: 20%;
+				left: -60%;
+				transition: all 0.3s linear 0s;
 			}
-			
 			.w-iphone3 {
 				width: 90%;
 				position: absolute;
 				top: 28%;
 				left: 5%;
+				opacity: 0;
 			}
-			
 			.w-gift3 {
 				position: absolute;
 				top: 21%;
-				left: 20%;
-				
+				right:-55%;
+				transition: all 0.3s linear 0s;
 			}
