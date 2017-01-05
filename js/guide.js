@@ -1,7 +1,7 @@
 $(function(){
 	var body = $("body");
-	var page = $("#slide");
-	
+	var page = $("#slide .swrip-pan");
+	var num = $(".w-wrap");
 	var txtOne = $(".w-txt1");
 	var txtTwo = $(".w-txt2");
 	var txtThree = $(".w-txt3");
@@ -87,7 +87,8 @@ $(function(){
 		
 	}
 	pageMove(page);
-	touch.on(body,"swipeleft",function(){
+	touch.on(page,"swipeleft",function(event){
+		event.preventDefault();
 		pageMove(page);
 	})
 })
