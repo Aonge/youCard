@@ -134,28 +134,14 @@
 	margin-left: -10%;
 }
 
-.vd-contain dl dt span {
-	position: absolute;
-	display: inline-block;
-	line-height: 1.9rem;
-	font-size: 1rem;
-	bottom: 2px;
-	color: #FFFFFF;
-	width: 98%;
-	background-color: rgba(0, 0, 0, 0.5);
-	padding-left: 2%;
-}
-
-.vd-contain dl dd span {
-	width: 50%;
+.video-zi span {
+	display:block;
+	width:53%;
 	line-height: 1.8rem;
 	font-size: 1.5rem;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	/*white-space: nowrap;*/
 	color: #555;
+	text-align: left;
 }
-
 .more {
 	margin-left: 1.5%;
 	width: 90%;
@@ -176,6 +162,7 @@
 }
 
 .video-zi {
+	width: 100%;
 	position: absolute;
 	top: 0;
 	left: 48%;
@@ -183,19 +170,24 @@
 }
 
 .video-tu {
-	width: 90%;
+	width: 50%;
 	position: absolute;
-	top: 62%;
-	left: 10%;
+	bottom: 0.6rem;
+	left: 31%;
+}
+.video-tu i,.video-tu2 i{
+	font-size: 2.6rem;
+	color: rgb(221,221,221);
+	vertical-align: sub;
 }
 
-.video-tu img {
-	width: 1.5rem;
-}
 
 .video-tu2 {
-	width: 2rem;
+	width: 35%;
 	position: absolute;
-	top: 65%;
-	left: 65%;
+	bottom: 0.6rem;
+	left: 66%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }

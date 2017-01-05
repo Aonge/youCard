@@ -1,160 +1,232 @@
+#contain {
+	width: 100%;
+}
 
-	#contain{
-		/*margin-top: 1.2rem;*/		
-		width: 100%;	
-		height: 100%;	
-	}
-	.bag-top{
-		width: 100%;
-		position: relative;
-	}
-	.bag-top img{
-		width: 100%;
-		vertical-align: bottom;
-	}
-	#cover-txt{
-		width: 100%;
-		height: 4rem;
-		background: #000000;	
-		color: #FFFFFF;
-		position: absolute;
-		bottom: 0px;
-		opacity: 0.5;
-	}
-	#cover-txt h3{
-		font-size: 1.8rem;
-		color: #FFFFFF;
-		margin-left: 5%;
-		margin-top: 0.6rem;
-		margin-bottom: 0.6rem;		
-	}
-	.cover-txt2{
-		width: 90%;
-		margin-left: 5%;
-		display: flex;
-		justify-content: space-between;
-	}
-	.cover-txt2 span{
-		font-size: 1rem;
-	}
-	.cover-txt2 span i{
+.bag-top {
+	width: 100%;
+	position: relative;
+}
 
-		color:orange;
-		font-style: normal;
-	}
-	
-	
-	/*中间内容*/
-	.bag-content{
-		width: 100%;
-		background: #FFFFFF;
-		margin-top: 1.2rem;
-	}
-	.content-txt1{
-		width: 90%;
-		margin-left: 5%;
-		padding-top: 2rem;
-		font-size: 2rem;
-		color: #888;
-	}
-	.content-input{
-		width: 90%;
-		margin-left: 5%;
-		margin-top: 2rem;
-	}
-	.content-input input{
-		text-align: center;
-		width: 70%;
-		height: 3.5rem;
-		border: 0;	
-		font-size: 2rem;
-		background:#e2e2e2 ;
-		color: #555;
-	}
-	.content-input button{
-		width: 23.6%;
-		height: 3.5rem;
-		border:0;
-		font-size: 2rem;
-		background: #FE776F;
-		border-radius: 0.3rem;
-		color: #FFFFFF;
-		margin-left: 3%;
-		outline: none;
-	}
-	.content-txt2{
-		text-align: center;
-		width: 90%;
-		margin-left: 5%;
-		padding-top: 2rem;
-		font-size: 1.6rem;
-		border-bottom: 1px #e2e2e2 solid;
-		padding-bottom: 1.5rem;
-		color: #555;
-		overflow: hidden;
-		text-overflow: ellipsis;
-		white-space: nowrap;
-	}
-	.content-txt2 a{
-		color: red;
-		text-decoration: underline;
-	}
-	.bag-txt3{
-		width: 90%;
-		margin-left:5%;		
-		padding-bottom: 2.3rem;
-		padding-left: 1%;
-		padding-right: 1%;
-	}
-	dl dt{
-		font-size: 2.5rem;
-		width: 100%;
-		margin-top: 2rem;
-		margin-bottom: 1rem;
-	}
-	dl dd{
-		font-size: 1.6rem;
-		color: #ababab;
-		line-height: 2rem;
-	}
-	
-	/*尾部*/
-	.bag-foot{
-		width: 100%;
-		background: #FFFFFF;
-		margin-top: 1.2rem;
-		position: relative;
-		padding-top: 2rem;
-		/*padding-bottom: 6rem;*/
-	}
-	.bag-foot img{
-		width: 20%;
-		margin-left: 5%;
-		margin-bottom: 2rem;
-	}
-	.bag-foot strong{
-		position: absolute;
-		top: 30%;
-		left:27%;
-		font-size:2rem;
-	}
-	.bag-foot span{
-		position: absolute;
-		top: 60%;
-		left:27%;
-		font-size:1.2rem;
-		color:#FE776F ;
-	}
-	.bag-foot button{
-		width: 22%;
-		height: 3.5rem;
-		border: 0;
-		font-size: 2rem;
-		background: #FE776F;
-		border-radius: 0.3rem;
-		color: #FFFFFF;
-		position: absolute;
-		top: 30%;
-		right: 5%;
-		outline: none;
-	}
+.bag-top img {
+	width: 100%;
+	vertical-align: bottom;
+}
+
+#cover-txt {
+	width: 100%;
+	height: 4rem;
+	background: #000000;
+	color: #FFFFFF;
+	position: absolute;
+	bottom: 0px;
+	opacity: 0.5;
+}
+
+#cover-txt h3 {
+	font-size: 1.8rem;
+	color: #FFFFFF;
+	margin-left: 5%;
+	margin-top: 0.6rem;
+	margin-bottom: 0.6rem;
+}
+
+.cover-txt2 {
+	width: 90%;
+	margin-left: 5%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.cover-txt2 span {
+	font-size: 1rem;
+}
+
+.cover-txt2 span i {
+	color: orange;
+	font-style: normal;
+}
+
+
+/*中间内容*/
+
+.bag-content {
+	width: 100%;
+	background: #FFFFFF;
+	margin-top: 1.2rem;
+}
+
+.content-txt1 {
+	width: 90%;
+	margin-left: 5%;
+	padding-top: 2rem;
+	font-size: 2rem;
+	color: #888;
+}
+
+.content-input {
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 2rem;
+}
+
+.content-input input {
+	text-align: center;
+	width: 70%;
+	height: 3.5rem;
+	border: 0;
+	font-size: 2rem;
+	background: #e2e2e2;
+	color: #555;
+}
+
+.content-input button {
+	width: 23.6%;
+	height: 3.5rem;
+	border: 0;
+	font-size: 2rem;
+	background: #FE776F;
+	border-radius: 0.3rem;
+	color: #FFFFFF;
+	margin-left: 3%;
+	outline: none;
+}
+
+.content-txt2 {
+	text-align: center;
+	width: 90%;
+	margin-left: 5%;
+	padding-top: 2rem;
+	font-size: 1.6rem;
+	border-bottom: 1px #e2e2e2 solid;
+	padding-bottom: 1.5rem;
+	color: #555;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.content-txt2 a {
+	color: red;
+	text-decoration: underline;
+}
+
+.bag-txt3 {
+	width: 90%;
+	margin-left: 5%;
+	padding-bottom: 2.3rem;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+dl dt {
+	font-size: 2.5rem;
+	width: 100%;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+
+dl dd {
+	font-size: 1.6rem;
+	color: #ababab;
+	line-height: 2rem;
+}
+
+
+/*尾部*/
+
+.bag-foot {
+	width: 100%;
+	background: #FFFFFF;
+	margin-top: 1.2rem;
+	position: relative;
+	padding-top: 2rem;
+	/*padding-bottom: 6rem;*/
+}
+
+.bag-foot img {
+	width: 20%;
+	margin-left: 5%;
+	margin-bottom: 2rem;
+}
+
+.bag-foot strong {
+	position: absolute;
+	top: 30%;
+	left: 27%;
+	font-size: 2rem;
+}
+
+.bag-foot span {
+	position: absolute;
+	top: 60%;
+	left: 27%;
+	font-size: 1.2rem;
+	color: #FE776F;
+}
+
+.bag-foot button {
+	width: 22%;
+	height: 3.5rem;
+	border: 0;
+	font-size: 2rem;
+	background: #FE776F;
+	border-radius: 0.3rem;
+	color: #FFFFFF;
+	position: absolute;
+	top: 30%;
+	right: 5%;
+	outline: none;
+}
+
+.bag-top{
+	background: #FFF;
+}
+.bofang {
+	background: white;
+	display: flex;
+	justify-content: space-around;
+	padding: 1rem;
+}
+.bofang i{
+	font-size: 2.5rem;
+	margin-left: 1rem;
+	vertical-align: sub;
+	color: #fe776f;
+}
+.content-txt1 {
+	width: 90%;
+	padding-left: 0.8rem;
+	margin-left: 0;
+	padding-top: 1rem;
+}
+
+.bag-foot {
+	width: 100%;
+	background: #FFFFFF;
+	margin-top: 1.2rem;
+	position: relative;
+	padding-top: 2rem;
+}
+
+.video {
+	margin-top: 2%;
+}
+
+.video strong {
+	float: right;
+	font-size: 1.6rem;
+	margin-top: 1rem;
+	margin-right: 2rem;
+}
+
+.bag-top img:nth-of-type(2) {
+	width: 20%;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	margin-left: -10%;
+}
+
+.mg-btm {
+	margin-bottom: 0;
+}
