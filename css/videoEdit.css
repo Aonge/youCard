@@ -28,6 +28,7 @@ body{
 	color: #d92a2a;
 }
 /*标题部分*/
+
 .topWrap{
 	width: 100%;
 	margin-top: 42px;
@@ -46,7 +47,7 @@ body{
 	margin-right: 10%;
 
 }
-.topTxt2{
+.topTxt1{
 	color: red;
 }
 .bottomLine{
@@ -56,41 +57,75 @@ body{
 	background: red;
 	position: absolute;
 	bottom: 0;
-	left: 60%;
+	left: 10%;
 }
 
-/*攻略列表*/
-.strategyList{
+/*内容*/
+#content{
+	border-top: 1px #DDDCDA solid;
+	width: 100%;
+	
+}
+
+#content li{
+	width: 100%;
+	overflow: hidden;
+}
+.left{
+	width: 7%;
+	
+	border-bottom:1px #b2b2b2 solid ;
+	float: left;
 	height: 80px;
-	/*background: lightblue;*/
-	width: 90%;
-	margin-left: 5%;
-	border-bottom: 1px #DDDCDA solid;
 }
-
-.topDiv{
-	width: 100%;	
-	height: 50px;	
-	padding-top: 15px;
-	
+.middle1{
+	float: left;
+	width: 2%;
+	background: #fbfbfb;
+	height: 80px;
 }
-.icon-yes_b{
-	font-size: 2.5rem;
-	margin-top: 50px;
-	vertical-align: sub;
+.middle2{
+	float: left;
+	width: 1%;
+	background: #dddcda;
+	height: 80px;
+	border-bottom:1px #dddcda solid ;
+	position: relative;
+	text-align: center;
 }
-.listTxt{
+.right{
+	width: 88%;	
+	border-bottom:1px #b2b2b2 solid ;
+	float: left;
+	height: 80px;
+	position: relative;
+}
+.icon-xuankuang{	
+	font-size: 2.8rem;
+	position: absolute;
+	top: 33%;
+	left:-13px;
+	color: #81d000;
+}
+.right span{
+	position: absolute;
+	top: 10px;
+	left: 15px;
 	font-size: 1.6rem;
-	
 }
-.downDiv{
-	text-align: right;
+.right strong{
+	position: absolute;
+	bottom: 10px;
+	right: 15px;
+	font-size: 1.2rem;
+	font-style: normal;
 }
 
 .chooseAll{
 	margin-top: 15px;
 	width: 90%;
-	margin-left: 5%;
+	margin-left: 8%;
+	font-size: 2rem;
 }
 .bottomButton{
 	width: 100%;
@@ -102,9 +137,9 @@ body{
 .bottomButton button{
 	width: 30%;
 	font-size: 1.4rem;
-	color: #FFFFFF;
-	background: red;
+	color: red;
+	background:#FFFFFF;
 	padding:10px 5px;
-	border: none;
+	border: 1px red solid;
+	border-radius: 5px;
 }
-
