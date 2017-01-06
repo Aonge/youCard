@@ -1,0 +1,103 @@
+html,body,div,dl,ul,li,dt,dd,p,span,img,strong,i,button,h4{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+ul li{
+	list-style: none;
+}
+html{
+	width: 100%;
+	font-size: 62.5%;
+}
+body{
+	width: 100%;
+}
+
+#head{
+	background: #f9f9f9 !important;
+}
+
+/*内容部分*/
+#contain{
+	padding-bottom: 75px;
+}
+.bagWrap1{
+	margin-top: 60px;
+	width: 100%;
+}
+.bagWrap{
+	width: 100%;
+}
+h4{
+	height: 40px;
+	line-height: 40px;
+	font-size: 2rem;
+	margin-left: 5%;
+}
+.content{
+	width: 100%;
+	position: relative;
+}
+.content img{
+	width: 25%;
+	margin-left: 5%;
+}
+.content i{
+	position: absolute;
+	/*width: 20%;*/
+	left: 32%;
+	top: 6%;
+	font-style: normal;
+	font-size: 1.4rem;
+	color: red;
+}
+.content input{
+	position: absolute;
+	height: 35%;
+	width: 40%;;
+	left: 32%;
+	top: 29%;
+	font-style: normal;
+	font-size: 1.8rem;
+	background: #EEEEEE;
+	border: 0;
+	outline: none;
+}
+input::-webkit-input-placeholder{
+	text-indent: 5px;
+}
+.content button{
+	position: absolute;
+	height: 35%;
+	width: 22%;;
+	left: 75%;
+	top: 29%;
+	font-style: normal;
+	font-size: 1.8rem;
+	color: #FFFFFF;
+	background: #f56243;
+	border: 0;
+	outline: none;
+	border-radius: 5px;
+}
+
+.content span{
+	position: absolute;
+	left: 32%;
+	top: 78%;
+	font-style: normal;
+	font-size: 1.4rem;
+	color:#784495;
+}
+ p{
+	padding:2% 5%;	
+	font-style: normal;
+	font-size: 1.5rem;
+	line-height: 20px;
+	border-bottom: 1px #EEEEEE solid;
+	color: #646464;
+}
