@@ -1,0 +1,124 @@
+html,body,div,dl,ul,li,dt,dd,span,img,strong,i,button,h4{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+ul,li{
+	list-style: none;
+}
+html{
+	width: 100%;
+	font-size: 10px;	
+}
+body{
+	width: 100%;
+	background: #fbfbfb;	
+}
+
+/*头部*/
+#head{
+	background: #F9F9F9;
+}
+#head .title>a{
+	position: absolute;
+	right: 3%;
+	font-size: 1.8rem;
+	color: #d92a2a;
+}
+/*标题部分*/
+
+.topWrap{
+	width: 100%;
+	margin-top: 42px;
+	overflow: hidden;
+	background: #FFFFFF;
+	position: relative;
+}
+.topTxt{
+	width: 30%;
+	float: left;
+	text-align: center;
+	font-size: 2rem;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	margin-left: 10%;
+	margin-right: 10%;
+
+}
+.topTxt1{
+	color: red;
+}
+.bottomLine{
+	clear: both;
+	height: 3px;
+	width: 30%;
+	background: red;
+	position: absolute;
+	bottom: 0;
+	left: 10%;
+}
+
+/*内容*/
+#content{
+	border-top: 1px #DDDCDA solid;
+	width: 100%;
+	
+}
+
+#content li{
+	width: 100%;
+	overflow: hidden;
+}
+.left{
+	width: 7%;
+	
+	border-bottom:1px #b2b2b2 solid ;
+	float: left;
+	height: 80px;
+}
+.middle1{
+	float: left;
+	width: 2%;
+	background: #fbfbfb;
+	height: 80px;
+}
+.middle2{
+	float: left;
+	width: 1%;
+	background: #dddcda;
+	height: 80px;
+	border-bottom:1px #dddcda solid ;
+	position: relative;
+	text-align: center;
+}
+.right{
+	width: 88%;	
+	border-bottom:1px #b2b2b2 solid ;
+	float: left;
+	height: 80px;
+	position: relative;
+}
+.yes_b{
+	width: 35px;
+	background: #81d000;
+	border-radius: 50%;
+	position: absolute;
+	top: 33%;
+	left:-15px;
+}
+.right span{
+	position: absolute;
+	top: 10px;
+	left: 15px;
+	font-size: 1.6rem;
+}
+.right strong{
+	position: absolute;
+	bottom: 10px;
+	right: 15px;
+	font-size: 1.2rem;
+	font-style: normal;
+}
+
