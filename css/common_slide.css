@@ -1,0 +1,81 @@
+#page-two{
+	position: fixed;
+	width: 70%;
+	height: 100%;
+	background-color: #fafafa;
+	z-index: 50;
+	left: -80%;
+	display: none;
+	box-shadow: 0.7rem 0 4rem rgba(0,0,0,0.5);
+	transform: translate3d(0,0,0);
+	transition: all 0.3s linear;
+	top: 0;
+}
+.slide-head{
+	width: 100%;
+	height: 10rem;
+	padding-top: 8%;
+	position: relative;
+}
+.slide-user{
+	width: 5.2rem;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	margin-left: -2.6rem;
+}
+.slide-button{
+	width: 7rem;
+	background-color: #f46259;
+	position: absolute;
+	text-align: center;
+	bottom: 5%;
+	color: #FFF;
+	font-size: 2rem;
+	line-height: 3rem;
+	border-radius: 0.5rem;
+	left: 50%;
+	margin-left: -3.5rem;
+}
+.game-list{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.game-list li{
+	padding-left: 1rem;
+	background-color: #FFF;
+	margin-bottom: 0.2rem;
+	line-height: 5rem;
+}
+.care-title{
+	font-size: 2rem;	
+	line-height: 5rem;
+}
+.game-list li img{
+	width: 3rem;
+	vertical-align: middle;
+}
+.game-list li span{
+	font-size: 1.6rem;
+	padding-left: 1rem;
+}
+.game-list li i{
+	font-size: 2.5rem;
+	position: absolute;
+	right: 1.6rem;
+	font-weight: bold;
+	color: #8a8a8a;
+	text-shadow: 0 0 0.2rem rgba(0,0,0,0.5);
+}
+.care-add{
+	width: 100%;
+	color: #bebebe;
+	font-size: 1.8rem;
+	line-height: 5rem;
+	padding-left: 2rem;
+}
+.care-add i{
+	font-size: 3rem;
+	vertical-align: sub;
+}

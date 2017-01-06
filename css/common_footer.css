@@ -8,6 +8,8 @@
 	bottom: 0;
 	z-index: 10;
 	border-top: 1px solid #919191;
+	transform: translate3d(0,0,0);
+	transition: all 0.3s linear;
 }
 #footer ul{
 	width: 100%;

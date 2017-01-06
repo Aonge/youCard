@@ -20,3 +20,4 @@ body{
 	height: 100%;
 	background-color: #e2e2e2;
 }
+html,body{overflow:hidden;overflow-y:auto;}

@@ -95,7 +95,6 @@ $(function(){
 				window.location.href = "index.html"
 			})
 		}
-		
 	}
 	pageMove(0,page);
 	touch.on(page,"swipestart swiping swipeend",function(event){
