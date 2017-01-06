@@ -63,6 +63,19 @@ $(function(){
 		}
 	}
 	var timer = setInterval(left,2500);
+	var config = {
+		    tap: true,                  //tap类事件开关, 默认为true
+		    doubleTap: false,            //doubleTap事件开关， 默认为true
+		    hold: true,                 //hold事件开关, 默认为true
+		    holdTime: 650,              //hold时间长度
+		    swipe: true,                //swipe事件开关
+		    swipeTime: 100,             //触发swipe事件的最大时长
+		    swipeMinDistance: 50,       //swipe移动最小距离
+		    swipeFactor: 200,             //加速因子, 值越大变化速率越快
+		    drag: false,                 //drag事件开关
+		    pinch: false               //pinch类事件开关
+	}
+	touch.config = config
 	touch.on(img,"swipeleft swiperight",function(event){
 		event.preventDefault();
 		clearInterval(timer);
