@@ -1,4 +1,4 @@
-$(".regards").on("click",function(){
-	$(".alert_wrap").css("display","block");
-	$(".alert_con").css("display","block")
+$(function(){
+	var tag = $("#footer li");
+	tag.eq(3).addClass("page-active");
 })

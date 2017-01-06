@@ -36,6 +36,6 @@ $(function(){
 	});
 	touch.on($(tag[3]),"tap",function(event){
 		event.preventDefault();
-//		window.location.href = "index.html";
+		window.location.href = "Login.html";
 	});
 })

@@ -2,11 +2,9 @@ body {
 	background: url(../img/Login/beijing-1.png) no-repeat;
 	background-size: 100% 100%;
 }
-
-body {
-	height: 0;
+#head .title{
+	height:3.5rem;
 }
-
 .inputWrap {
 	width: 100%;
 }
@@ -57,7 +55,10 @@ button:focus {
 }
 
 .content-txt1 {
+	text-align: center;
+	width: 100%;
 	margin-top: 3%;
+	margin-left: -1.3rem;
 }
 
 .content-txt1 span {
@@ -65,16 +66,16 @@ button:focus {
 	font-size: 2rem;
 }
 
-.content-txt1 img {
-	width: 5%;
-	margin-left: 15%;
-	margin-top: 1%;
+.content-txt1 i {
+	color: #f2635d;
+	font-size: 2.4rem;
+	font-weight: bold;
+	margin-left: 5%;
 }
 
 .qiandao {
 	margin-top: -2%;
 	font-size: 1.6rem;
-	vertical-align: super;
 	margin-left: 0.2rem;
 }
 
@@ -89,33 +90,20 @@ u {
 
 .content-txt2 {
 	margin-top: 4%;
-	margin-left: -32%;
-}
-
-.content-txt2 img {
-	margin-top: 1%;
-	width: 1.8rem;
+	padding-left: 8%;
 }
 
 .content-txt2 span {
 	font-size: 1.8rem;
 }
 
-.jiantou {
-	margin-left: 35%;
-}
-
-.kong {
-	background: white;
-}
-
 .alert_wrap {
 	width: 100%;
-	height: 100%;
+	height: 130%;
 	background: black;
 	opacity: 0.6;
 	position: fixed;
-	top: 0;
+	top: -10%;
 	left: 0;
 	display: none;
 }
@@ -133,15 +121,17 @@ u {
 .alert_cons {
 	background: #f6f6f6;
 	height: 3rem;
-	border-radius: 5px;
+	border-radius: 5px 5px 0 0;
 	line-height: 3rem;
 }
-
+.alert_cons span{
+	margin-left: 0.8rem;
+}
 .actives-con {
 	background: #FFFFFF;
 	height: 10rem;
 	font-size: 1.5rem;
-	border-radius: 5px;
+	border-radius:0 0 5px 5px;
 	padding: 0.6rem;
 }
 
@@ -157,4 +147,21 @@ u {
 
 .actives-con span {
 	margin-left: 1rem;
+}
+
+.content-txt2 i{
+	color: #f2635d;
+	font-size: 2.2rem;
+	margin-right: 0.5rem;
+}
+.content-txt2 .icon-dingdan,.content-txt2 .icon--shoucang{
+	font-size: 3rem;
+	font-weight: bold;
+	vertical-align: sub;
+	margin-left: -0.5rem;
+}
+.content-txt2 .icon-right{
+	color:#888;
+	font-weight: bold;
+	margin-left: 48%;
 }
