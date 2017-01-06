@@ -165,3 +165,10 @@ u {
 	font-weight: bold;
 	margin-left: 48%;
 }
+.alert_con i{
+	position: absolute;
+	font-size: 2.5rem;
+	right: 0.5rem;
+	color: #ababab;
+	font-weight: bold;
+}

@@ -1,16 +1,5 @@
-div,img,input,button,a{
-	padding: 0;
-	margin: 0;
-}
-html{
-	width: 100%;
-	height: 100%;
-	font-size: 10px;
-	
-}
 body{
 	width: 100%;
-	height: 100%;
 	background: url(../img/login/myBg.png) no-repeat fixed;
 	background-size: cover;
 }
@@ -42,13 +31,14 @@ body{
 	border: 1px #FFFFFF solid;
 	background: #e99593;
 	outline: none;
-	border-radius: 5px;
+	border-radius: 0.5rem;
 	font-size: 1.8rem;
-	
+	color: #FFF;	
+	text-indent: 10px;
 }
 input::-webkit-input-placeholder{
-color: #FFFFFF;
-text-indent: 10px;
+	color: #FFFFFF;
+	text-indent: 10px;
 }
 
 .loginButton{
@@ -75,5 +65,5 @@ text-indent: 10px;
 	font-size: 1.8rem;
 	text-decoration: underline;
 	padding-top: 20px !important;
-	
+	margin-bottom: 3rem;
 }
