@@ -67,16 +67,16 @@ body{
 	margin-left: 5%;
 	border-bottom: 1px #DDDCDA solid;
 }
-.strategyList i{
-	font-size: 2rem;
+
+.topDiv{
+	width: 100%;		
+}
+.icon-yes_b{
+	font-size: 3rem;
 	margin-top: 50px;
 }
-.strategyList span{
+.listTxt{
 	font-size: 1.6rem;
-	margin-top: 50px;
+	
 }
-.strategyList div{
-	font-size: 1rem;
-	margin-top: 45px;
-	text-align: right;	
-}
+
