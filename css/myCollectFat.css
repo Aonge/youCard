@@ -25,3 +25,55 @@ body{
 	font-size: 1.8rem;
 	color: #d92a2a;
 }
+/*内容部分*/
+.topWrap{
+	width: 100%;
+	margin-top: 50px;
+	overflow: hidden;
+	background: lightblue;
+}
+.topTxt{
+	width: 50%;
+	float: left;
+	text-align: center;
+	font-size: 2rem;
+	padding-top: 10px;
+}
+.topTxt1{
+	color: red;
+}
+.topLine{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+.topLine img{
+	width: 45%;
+	height: 3px;
+}
+.topLine2 img{
+	display: none;
+}
+
+#content{
+	background: lightgoldenrodyellow;
+}
+
+#content li{
+	position: relative;
+	width: 100%;
+	height: 15%;
+}
+.verticalLine{
+	border: 2px #dddcda solid;
+	position: absolute;
+	height: 100px;
+	/*width: 10px;*/
+	top: 0;
+	left: 6%;
+}
+.yes_b{
+	width: 15px;
+	background: green;
+	position: absolute;
+}

@@ -18,11 +18,27 @@ $(function(){
 	var present = $(".w-hot");
 	var intr = $(".w-dujia");
 	
-	var index = -1;
+	var index = 0;
+	//配置touch
+	var config = {
+		    tap: true,                  //tap类事件开关, 默认为true
+		    doubleTap: false,            //doubleTap事件开关， 默认为true
+		    hold: true,                 //hold事件开关, 默认为true
+		    holdTime: 650,              //hold时间长度
+		    swipe: true,                //swipe事件开关
+		    swipeTime: 300,             //触发swipe事件的最大时长
+		    swipeMinDistance: 50,       //swipe移动最小距离
+		    swipeFactor: 200,             //加速因子, 值越大变化速率越快
+		    drag: false,                 //drag事件开关
+		    pinch: false               //pinch类事件开关
+	}
+	touch.config = config
 	//动画函数
-	function pageMove(obj){
-		index++;
+	function pageMove(index,obj){
 		if(index == 0){
+			obj.css({
+				left:-100*index+"%"
+			});
 			txtOne.animate({
 					left:20+"%"
 				},600,"linear");
@@ -33,18 +49,15 @@ $(function(){
 						opacity:1
 					},300,"linear")
 				})
-			obj.animate({
-				left:0+"%"
-			},300,"linear");
 		}else if(index == 1){
 			var ph = phoneTwo.offset();
 			onLine.css("top",(ph.top+ph.height/4));
 			intr.css("top",(ph.top+ph.height/1.7));
 			present.css("top",(ph.top+ph.height/2.2))
-			obj.animate({
-				left:-100+"%"
-			},300,"linear",function(){
-				txtTwo.animate({
+			obj.css({
+				left:-100*index+"%"
+			});
+			txtTwo.animate({
 					left:18+"%"
 				},600,"linear");
 			giftTwo.animate({
@@ -61,12 +74,11 @@ $(function(){
 						present.css("opacity",1);
 					})
 				})
-			});
 		}else if(index == 2){
-			obj.animate({
-				left:-200+"%"
-			},300,"linear",function(){
-				txtThree.animate({
+			obj.css({
+				left:-100*index+"%"
+			});
+			txtThree.animate({
 					left:18+"%"
 				},600,"linear");
 			giftThree.animate({
@@ -76,7 +88,6 @@ $(function(){
 						opacity:1
 					},300,"linear")
 				})
-			});
 		}else{
 			obj.animate({
 				opacity:0
@@ -86,9 +97,33 @@ $(function(){
 		}
 		
 	}
-	pageMove(page);
-	touch.on(page,"swipeleft",function(event){
+	pageMove(0,page);
+	touch.on(page,"swipestart swiping swipeend",function(event){
 		event.preventDefault();
-		pageMove(page);
+		if (event.distanceX<0) {
+			if(event.type == "swipestart"){
+				index++;
+			}
+			if(event.type == "swiping"){
+				var dis = page.offset().left;
+				if(index>2){
+					return;
+				}else{
+					page.css({
+						left:dis+event.distanceX
+					})
+				}
+				
+			}
+			else if(event.type == "swipeend"&&event.distanceX<-200){
+//				console.log(event.type);
+//				console.log(index);
+				pageMove(index,page);
+			}else if(event.type == "swipeend"&&event.distanceX>-200){
+				page.css({
+					left:-100*(--index)+"%"
+				});
+			}
+		} 
 	})
 })

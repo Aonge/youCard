@@ -60,7 +60,7 @@
 			color: whitesmoke;
 			position: absolute;
 			top: 21%;
-			right: -55%;
+			right: -100%;
 			font-size: 1.8rem;
 			transition: all 0.3s linear 0s;
 		}
@@ -86,7 +86,7 @@
 			color: whitesmoke;
 			position: absolute;
 			bottom: 1%;
-			right: -55%;
+			right: -100%;
 			font-size: 1.8rem;
 			transition: all 0.3s linear 0s;
 		}
@@ -127,7 +127,7 @@
 		.w-gift3 {
 			position: absolute;
 			top: 21%;
-			right: -55%;
+			right: -100%;
 			font-size: 1.8rem;
 			transition: all 0.3s linear 0s;
 		}
