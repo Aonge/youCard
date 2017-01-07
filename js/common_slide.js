@@ -86,10 +86,10 @@ $(function() {
 			body.css("overflow", "auto");
 		}, 300)
 	});
-	touch.on(add,"tap",function(){
-		window.location.href = "w-attention.html";
-	});
 	touch.on(gameList,"tap",function(){
 		window.location.href = "w-gameBag.html";
+	});
+	touch.on(add,"tap",function(){
+		window.location.href = "w-attention.html";
 	});
 })
