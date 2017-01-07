@@ -1,66 +1,52 @@
+
 #head {
-			background: #f9f9f9;
-		}
-		
-		ul {
-			background: white;
-			overflow: hidden;
-			border-bottom: 2px #f9f9f9 solid;
-		}
-		
-		.conta {
-			margin-top: 6%;
-			margin-left: 1%;
-		}
-		
-		.conta img {
-			padding-bottom: 4%;
-			width: 50%;
-			float: left;
-			margin-right: 5%;
-		}
-		#contain{
-			margin-top: 2.6rem;
-		}
-		.cate {
-			margin-left: 8%;
-		}
-		
-		.content-txt1 {
-			font-size: 1.8rem;
-			padding-top: 1%;
-			margin-bottom: 3.8rem;
-		}
-		
-		.conts {
-			margin-top: 2rem;
-			margin-left: 1%;
-		}
-		
-		.conts img {
-			padding-bottom: 2rem;
-			width: 50%;
-			float: left;
-			margin-right: 5%;
-		}
-		#footer{
-			background: #f9f9f9;
-		}
-		.contss {
-			margin-top: 2rem;
-			margin-left: 1%;
-			margin-bottom: 25%;
-		}
-		
-		.contss img {
-			padding-bottom: 2rem;
-			width: 50%;
-			float: left;
-			margin-right: 5%;
-		}
-		.content-txt1 {
-			
-		}
-		#head .title .cate{
-			left:-5%;
-		}
+	background: #f9f9f9;
+}
+
+#contain {
+	margin-top: 2.6rem;
+}
+#contain ul {
+	width: 100%;
+	background: white;
+	border-bottom: 2px #f9f9f9 solid;
+	padding-top: 1rem;
+	padding-bottom: 6rem;
+}
+.conts {
+	margin-top: 1rem;
+	margin-left: 1%;
+	width: 100%;
+	clear: both;
+	padding-left: 0.5rem;
+	overflow: hidden;
+	position: relative;
+	border-bottom: 0.1rem solid #ABABAB;
+	padding-bottom: 1rem;
+}
+
+.conts img {
+	width: 35%;
+	float: left;
+	margin-right: 5%;
+}
+
+.content-txt1{
+	padding-right: 1.4rem;
+}
+.content-txt1 span:nth-of-type(1){
+	font-size: 1.6rem;
+	padding-top: 1%;
+}
+.content-txt1 span:nth-of-type(2){
+	position: absolute;
+	bottom: 1rem;
+	right: 7%;
+}
+#footer {
+	background: #f9f9f9;
+}
+
+#head .title .cate {
+	left: 1%;
+}

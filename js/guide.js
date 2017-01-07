@@ -27,7 +27,7 @@ $(function(){
 		    holdTime: 650,              //hold时间长度
 		    swipe: true,                //swipe事件开关
 		    swipeTime: 300,             //触发swipe事件的最大时长
-		    swipeMinDistance: 50,       //swipe移动最小距离
+		    swipeMinDistance: 20,       //swipe移动最小距离
 		    swipeFactor: 200,             //加速因子, 值越大变化速率越快
 		    drag: false,                 //drag事件开关
 		    pinch: false               //pinch类事件开关
@@ -114,11 +114,11 @@ $(function(){
 				}
 				
 			}
-			else if(event.type == "swipeend"&&event.distanceX<-200){
+			else if(event.type == "swipeend"&&event.distanceX<-100){
 //				console.log(event.type);
 //				console.log(index);
 				pageMove(index,page);
-			}else if(event.type == "swipeend"&&event.distanceX>-200){
+			}else if(event.type == "swipeend"&&event.distanceX>-100){
 				page.css({
 					left:-100*(--index)+"%"
 				});
