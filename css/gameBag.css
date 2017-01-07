@@ -125,6 +125,7 @@
 	position: absolute;
 	bottom: 0;
 	left: 6%;
+	transition: all 0.5s; 
 }
 
 .listBox{
