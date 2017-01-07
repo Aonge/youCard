@@ -26,6 +26,7 @@ $(function() {
 	var tabs = $("#head .title i");
 	var body = $("body");
 	var add = $(".care-add");
+	var gameList = $(".game-list li");
 	pageTwo.css({
 		display: "block",
 		left: "-80%"
@@ -87,5 +88,8 @@ $(function() {
 	});
 	touch.on(add,"tap",function(){
 		window.location.href = "w-attention.html";
-	})
+	});
+	touch.on(gameList,"tap",function(){
+		window.location.href = "w-gameBag.html";
+	});
 })
