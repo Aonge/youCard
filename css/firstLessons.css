@@ -41,7 +41,7 @@
 .content-txt1 span:nth-of-type(2){
 	position: absolute;
 	bottom: 1rem;
-	right: 7%;
+	left: 41%;
 }
 #footer {
 	background: #f9f9f9;

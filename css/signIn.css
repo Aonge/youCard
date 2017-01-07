@@ -49,7 +49,7 @@ input::-webkit-input-placeholder{
 	width: 35%;
 	line-height: 4rem;
 	float: right;
-	background:#f25454;
+	background:#888;
 	color:#FFFFFF;
 	border: 0;
 	outline: none;
@@ -61,7 +61,8 @@ input::-webkit-input-placeholder{
 	width: 100%;
 	height: 50px;	
 	clear: both;	
-	background:  #f25454;
+	/*background:  #f25454;*/
+	background:#888;
 	color:#FFFFFF;
 	border: 0;
 	outline: none;
