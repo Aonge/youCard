@@ -12,4 +12,12 @@ $(function() {
 //	});
 	var tag = $("#footer li");
 	tag.eq(2).addClass("page-active");
+	
+	
+	var btn = $(".getBtn");
+	
+	touch.on(btn,"tap",function(){
+		window.location.href="w-shopBag.html";
+	});
+	
 })

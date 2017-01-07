@@ -11,4 +11,9 @@ $(function(){
 //	});
 	var tag = $("#footer li");
 	tag.eq(1).addClass("page-active");
+	
+	var links = $(".linkSonPage");
+	touch.on(links,"tap",function(){
+		window.location.href="video_zz.html";
+	})
 })
