@@ -31,6 +31,9 @@
 	font-size: 1.6rem;
 	margin-top: 12px;
 	margin-bottom: 12px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 
@@ -61,7 +64,6 @@ h4 {
 .w-gameBox dt img {
 	width: 100%;
 }
-
 .w-gameBox dd {
 	margin-top: 10px;
 }
@@ -71,6 +73,9 @@ h4 {
 	font-style: normal;
 	font-size: 1.2rem;
 	color: #888888;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 .w-gameBox dd strong {
