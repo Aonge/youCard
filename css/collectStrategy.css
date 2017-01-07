@@ -1,0 +1,110 @@
+html,body,div,dl,ul,li,dt,dd,span,img,strong,i,button,h4{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+ul,li{
+	list-style: none;
+}
+html{
+	width: 100%;
+	font-size: 10px;	
+}
+body{
+	width: 100%;
+	background: #fbfbfb;	
+}
+
+/*头部*/
+#head{
+	background: #F9F9F9;
+}
+#head .title>a{
+	position: absolute;
+	right: 3%;
+	font-size: 1.8rem;
+	color: #d92a2a;
+}
+/*标题部分*/
+.topWrap{
+	width: 100%;
+	margin-top: 42px;
+	overflow: hidden;
+	background: #FFFFFF;
+	position: relative;
+}
+.topTxt{
+	width: 30%;
+	float: left;
+	text-align: center;
+	font-size: 2rem;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	margin-left: 10%;
+	margin-right: 10%;
+
+}
+.topTxt2{
+	color: red;
+}
+.bottomLine{
+	clear: both;
+	height: 3px;
+	width: 30%;
+	background: red;
+	position: absolute;
+	bottom: 0;
+	left: 60%;
+}
+
+/*攻略列表*/
+.strategyList{
+	height: 80px;
+	/*background: lightblue;*/
+	width: 90%;
+	margin-left: 5%;
+	border-bottom: 1px #DDDCDA solid;
+}
+
+.topDiv{
+	width: 100%;	
+	height: 50px;	
+	padding-top: 15px;
+	
+}
+.icon-yes_b{
+	font-size: 2.5rem;
+	margin-top: 50px;
+	vertical-align: sub;
+}
+.listTxt{
+	font-size: 1.6rem;
+	
+}
+.downDiv{
+	text-align: right;
+}
+
+.chooseAll{
+	margin-top: 15px;
+	width: 90%;
+	margin-left: 5%;
+}
+.bottomButton{
+	width: 100%;
+	/*background: lightcoral;*/
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+.bottomButton button{
+	width: 30%;
+	font-size: 1.4rem;
+	color: #FFFFFF;
+	background: red;
+	padding:10px 5px;
+	border: none;
+}
+
