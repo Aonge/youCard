@@ -25,6 +25,7 @@ $(function() {
 	var pageTwo = $("#page-two");
 	var tabs = $("#head .title i");
 	var body = $("body");
+	var add = $(".care-add");
 	pageTwo.css({
 		display: "block",
 		left: "-80%"
@@ -62,7 +63,7 @@ $(function() {
 			});
 		}, 10)
 
-	})
+	});
 	touch.on(document, "swipeleft", function(event) {
 		event.preventDefault();
 		pageTwo.css({
@@ -83,5 +84,8 @@ $(function() {
 			});
 			body.css("overflow", "auto");
 		}, 300)
+	});
+	touch.on(add,"tap",function(){
+		window.location.href = "w-attention.html";
 	})
 })

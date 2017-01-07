@@ -32,4 +32,7 @@ $(function(){
 		$(".alert_wrap").css("display","none");
 		$(".alert_con").css("display","none");
 	});
+	touch.on(myCollection,"tap",function(){
+		window.location.href = "w-collectStrategy.html";
+	});
 })
