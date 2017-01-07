@@ -1,0 +1,190 @@
+.imgBox{
+	width: 100%;
+	margin-top: 0.5rem;
+}
+.imgBox img{
+	width: 100%;
+}
+.bagBox{
+	width: 100%;
+	background: #FFFFFF;
+	overflow: hidden;
+	margin-top: 0.5rem;
+}
+.bagPic{
+	width: 15%;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	margin-left: .5rem;
+	margin-right: 1rem;
+	float: left;
+}
+.bagName{
+	padding-top:5%;
+	font-size: 1.6rem;
+	float: left;
+}
+.bagCont{
+	width: 78%;
+	margin-top: 4%;
+	float: left;
+	white-space:nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	font-style: normal;
+	color: #d8d8d8;
+}
+
+.moreBox{
+	clear: both;
+	text-align: center;
+	margin-bottom: 1rem;
+	width: 94%;
+	margin-left: 3%;
+	border-top: 1px  #d8d8d8 solid; 
+	padding-top: 1rem;
+}
+.moreBox a{	
+	font-size: 1.6rem;
+	color: red;
+}
+
+/*中部*/
+#contain{
+	padding-bottom: 53px;
+}
+#midBox{
+	width: 100%;
+	background: #FFFFFF;
+	margin-top: 0.5rem;
+	padding-top: 1%;
+	padding-bottom: 2%;
+}
+.cellBox{
+	width: 98%;
+	margin-left: 1%;	
+	display: flex;
+	justify-content:space-around;	
+}
+.cell{
+	margin-top: 1%;
+	width: 32%;
+	position: relative;
+}
+.cell img{
+	width: 100%;
+}
+.cover{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #e2e2e7;
+	opacity: 0.3;
+}
+.coverTxt{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	color: #706e93;
+	text-align: center;
+	font-size: 1.8rem;
+	padding-top: 25%;
+}
+
+/*标题部分*/
+
+.topWrap{
+	width: 100%;
+	overflow: hidden;
+	background: #FFFFFF;
+	position: relative;
+}
+.topTxt{
+	width: 21.33%;
+	float: left;
+	text-align: center;
+	font-size: 1.6rem;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	margin-left: 6%;
+	margin-right: 6%;
+
+}
+.topTxt1{
+	color: red;
+}
+.bottomLine{
+	clear: both;
+	height: 3px;
+	width: 21.33%;
+	background: red;
+	position: absolute;
+	bottom: 0;
+	left: 6%;
+}
+
+.listBox{
+	width: 100%;
+	border-top: 1px #d8d8d8 solid;
+}
+.videoList{
+	width: 100%;
+	background: #FFFFFF;
+	border-bottom: 1px #d8d8d8 solid;
+	position: relative;
+}
+.videoPic{
+	width: 40%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	margin-left: 2%;
+	margin-right: 3%;
+}
+.videoName{
+	position: absolute;
+	top: 9%;
+	font-size: 1.4rem;
+	line-height: 1.6rem;
+	padding-right: 2%;
+}
+.videoTime{
+	position: absolute;
+	top: 76%;
+	left: 60%;
+	font-size:0.8rem;
+	font-style: normal;
+}
+/*.bagBox{
+	width: 100%;
+	background: #FFFFFF;
+	overflow: hidden;
+	margin-top: 0.5rem;
+}
+.bagPic{
+	width: 15%;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	margin-left: .5rem;
+	margin-right: 1rem;
+	float: left;
+}
+.bagName{
+	padding-top:5%;
+	font-size: 1.6rem;
+	float: left;
+}
+.bagCont{
+	width: 78%;
+	margin-top: 4%;
+	float: left;
+	white-space:nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	font-style: normal;
+	color: #d8d8d8;
+}*/
+
