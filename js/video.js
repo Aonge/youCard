@@ -16,12 +16,5 @@ $(function(){
 	touch.on(links,"tap",function(){
 		window.location.href="video_zz.html";
 	});
-	
-		
-	var more = $(".more");
-	touch.on(more,"tap",function(){
-		Mock.mock("",{
-			"nodes|2":[{}]
-		})
-	});	
-});
+	tap(vMore,str1);
+})
