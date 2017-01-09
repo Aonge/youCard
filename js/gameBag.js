@@ -23,13 +23,11 @@ $(function () {
 
 	for(var i=0;i<title.length;i++){
 		touch.on(title[i],"tap",function () {
-			console.log(i);
+			console.log(this);
 			title.css("color","#000000");
 			this.style.color = "red";			
 		});
 	};
-	
-	
-	
+		
 });
 
