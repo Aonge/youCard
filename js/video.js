@@ -15,5 +15,6 @@ $(function(){
 	var links = $(".linkSonPage");
 	touch.on(links,"tap",function(){
 		window.location.href="video_zz.html";
-	})
+	});
+	tap(vMore,str1);
 })
