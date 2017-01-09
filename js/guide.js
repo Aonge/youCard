@@ -99,6 +99,7 @@ $(function(){
 	pageMove(0,page);
 	touch.on(page,"swipestart swiping swipeend",function(event){
 		event.preventDefault();
+//		console.log(event.distanceX)
 		if (event.distanceX<0) {
 			if(event.type == "swipestart"){
 				index++;
