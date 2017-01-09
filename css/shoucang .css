@@ -21,12 +21,11 @@ body{
 #head{
 	background: #F9F9F9;
 }
-#head .title>strong{
+#head .title>a{
 	position: absolute;
 	right: 3%;
 	font-size: 1.8rem;
 	color: #d92a2a;
-	font-style: normal;
 }
 /*标题部分*/
 
@@ -70,13 +69,9 @@ body{
 }
 
 #content li{
-	width: 130%;
+	width: 120%;
 	overflow: hidden;
-	transition: all 0.5s; 
-	margin-left: 0%;
-}
-.liLeft{
-	width: 77%;;
+	margin-left: -30%;
 }
 .left{
 	width: 7%;	
@@ -111,9 +106,7 @@ body{
 	position: absolute;
 	top: 33%;
 	left:-13px;
-	color: darkgray;
-	
-	background-color: #fbfbfb;
+	color: #81d000;
 }
 .right span{
 	position: absolute;
@@ -131,30 +124,9 @@ body{
 
 /******取消选择*****/
 .cancel{
-	width: 23%;
+	width: 20%;
 	height: 80px;
 	background: purple;
-	border-bottom:1px solid purple;
-	/*border-top:1px solid purple;*/
 	float: left;
-	font-size: 1.6rem;
-	color: #FFFFFF;
-	text-align: center;
-	line-height: 80px;
 }
-.bottomButton{
-	width: 100%;	
-	margin-top: 20px;
-	display: flex;
-	justify-content: space-around;
-	display: none;
-}
-.bottomButton button{
-	width: 30%;
-	font-size: 1.4rem;
-	color: #FFFFFF;
-	background: red;
-	padding:10px 5px;
-	margin-bottom: 20px;
-	border: none;
-}
+
