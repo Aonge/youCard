@@ -8,11 +8,9 @@
 		<link rel="stylesheet" type="text/css" href="css/common_head.css"/>
 		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
 		<link rel="stylesheet" type="text/css" href="css/myGiftBag.css"/>
-		
-		
 		<link rel="stylesheet" type="text/css" href="css/common_footer.css"/>
-		
 		<script src="js/zepto.min.js"></script>		
+		<script src="js/touch-0.2.14.min.js"></script>
 	</head>
 	<body>
 			<!--头部开始-->
@@ -80,4 +78,11 @@
 			<!--内容部分结束-->
 	</body>
 	<script src="js/commont_footer.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/common_sec.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			var tag = $("#footer li");
+			tag.eq(2).addClass("page-active");
+		})
+	</script>
 </html>
