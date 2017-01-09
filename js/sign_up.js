@@ -46,7 +46,11 @@ $(function() {
 			});
 		} else {
 			$(this).val("");
-			$(this).attr("placeholder", "手机号码有误")
+			$(this).attr("placeholder", "手机号码有误");
+			noRepeat = false;
+			verifyBtn.css({
+						background: "#888"
+			});
 		}
 	});
 

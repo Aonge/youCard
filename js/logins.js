@@ -5,12 +5,15 @@ $(function(){
 	var level = $(".content-txt1 u:nth-of-type(2)");
 	var signed = $(".content-txt1 u:nth-of-type(3)");
 	var divArr = $(".content-txt2");
+	var qinDao = $(".content-txt1>u");
+	var num = $(".content-txt1>span>u");
 	var myBag = $(divArr[0]);
 	var myOrders = $(divArr[1]);
 	var myCollection = $(divArr[2]);
 	var usInfo = $(divArr[3]);
 	var close = $(".alert_con i");
 	var divObj = [login,signed,myBag,myOrders];
+	var day = 0;
 	//配置touch
 	var config = {
 		    swipeFactor: 200,             //加速因子, 值越大变化速率越快
@@ -33,6 +36,10 @@ $(function(){
 		$(".alert_con").css("display","none");
 	});
 	touch.on(myCollection,"tap",function(){
-		window.location.href = "w-collectStrategy.html";
+		window.location.href = "w-myCollect.html";
+	});
+	touch.on($(qinDao[1]),"tap",function(){
+		day++;
+		$(num).html(day)
 	});
 })

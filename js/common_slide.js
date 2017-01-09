@@ -27,6 +27,7 @@ $(function() {
 	var body = $("body");
 	var add = $(".care-add");
 	var gameList = $(".game-list li");
+	var btn  = $(".slide-button");
 	pageTwo.css({
 		display: "block",
 		left: "-80%"
@@ -91,5 +92,8 @@ $(function() {
 	});
 	touch.on(add,"tap",function(){
 		window.location.href = "w-attention.html";
+	});
+	touch.on(btn,"tap",function(){
+		window.location.href = "w-login.html";
 	});
 })

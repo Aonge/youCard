@@ -14,7 +14,6 @@
 }
 .game-img{
 	width: 20%;
-	/*position: absolute;*/
 	top: 11%;
 	left:5%;
 }
@@ -31,12 +30,7 @@
 	font-size: 1.4rem;
 	font-style: normal;
 }
-.game-star{
-	width: 15%;
-	position: absolute;
-	top: 63%;
-	left:48%;	
-}
+
 button{
 	position: absolute;	
 	width: 24%;
@@ -47,22 +41,30 @@ button{
 	font-size: 1.6rem;
 	outline: none;
 	border:1px #f56243 solid;
-	
-	
 	background: #f56243;	
 	color: white;
 }
-.favorite{
-	color: #ffc000;
+.favorite,.star{
+	color: #aaa;
 	position: absolute;
-	bottom:2rem;
+	top:60%;
 	left: 50%;
 	margin-left: -3%;
 }
-.favorite i{
-	font-size: 1rem;
-	
+.star{
+	color: #ffc000;
+	/*width: 6rem;*/
+	overflow: hidden;
+	white-space:nowrap;
+	width: 0;
+	transition: all 0.2s linear;
+	min-width: 0;
+	max-width: 6rem;
 }
+.favorite i,.star i{
+	font-size: 1rem;
+}
+
 /*取消关注后button效果*/
 /*button{
 	position: absolute;	
