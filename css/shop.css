@@ -95,3 +95,6 @@ h4 {
 	border-radius: 6px;
 	font-size: 1.6rem;
 }
+button:focus{
+	outline: none;
+}
