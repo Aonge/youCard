@@ -1,0 +1,48 @@
+#contain span{
+			font-size: 2rem;
+			margin-left: 1.5rem;
+		}
+		.cont{
+			width: 98%;
+			height: 17rem;
+			font-size: 1.5rem;
+			margin-top:0.8rem ;
+			resize: none;
+		}
+		.cons{
+			margin-top: 2rem;
+			width: 100%;
+			height: 5rem;
+			line-height: 5rem;
+			background: white;
+			/*overflow: hidden;*/
+		}
+		.cons span{
+			float: left;
+			width: 30%;
+		      font-size: 1.5rem;
+		}
+		.cons input{
+			float: left;
+			outline: none;
+			border: none;
+			width: 60%;
+			height: 4.8rem;
+			font-size: 1.5rem;
+		}
+		button{
+			outline: none;
+			width: 80%;
+			height: 4.5rem;
+		    font-size: 2rem;
+		    color: white;
+		    background:#fe776f ;
+		    border: 1px #fe776f solid;
+		    border-radius:5px ;
+		}
+		#contentBox{
+			margin-top:10% ;
+			width: 100%;
+			text-align: center;
+			margin-bottom: 6rem;
+		}
