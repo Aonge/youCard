@@ -42,4 +42,4 @@ $(function(){
 		day++;
 		$(num).html(day)
 	});
-})
+});
