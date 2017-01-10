@@ -66,7 +66,7 @@ $(function() {
 		}, 10)
 
 	});
-	touch.on(document, "swipeleft", function(event) {
+	touch.on(pageTwo, "swipeleft", function(event) {
 		event.preventDefault();
 		pageTwo.css({
 			left: "-80%"
