@@ -47,15 +47,31 @@ $(function() {
 							background: "#f25454"
 						});
 						touch.on(signBtn, "tap", function() {
-							//存储用户手机号码
-							localStorage.setItem("phone", $(inputArr[0]).val());
-							alert("这里换成Ajax");
+                            $.ajax({
+                                method: "get",
+                                url: "http://localhost:8000/get",
+                                dataType: "json",
+                                sync: true,
+                                data: {
+                                    act: "findPass",
+                                    phone: $(inputArr[0]).val()
+                                },
+                                success: function (data) {
+									if(data.err == 0){
+										alert("您的密码为:"+data.password);
+										// console.log(data.password)
+									}else if(data.err == 1){
+                                        alert("您的密码为:"+data.msg);
+                                        // console.log(data)
+									}
+                                }
+                            });
 						})
 					}
 				}else{
 					verifyBool = false;
 				}
-				//				console.log(verifyBool)
+				//console.log(verifyBool)
 			});
 		} else {
 			$(this).val("");
