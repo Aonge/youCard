@@ -13,13 +13,13 @@ $(function() {
 		stra.css("color", "red");
 		line.css("left", "60%");
 	});
-	
-//	勾选前后颜色
+
+	//	勾选前后颜色
 	var colorBef = "darkgray";
 	var colorAft = "green";
 	//点击单个勾选框
 	//点击一键取消收藏
-	
+
 	var content = $("#content");
 	var rightBotton = $(".rightBotton");
 	var icon = $(".icon-xuankuang");
@@ -28,33 +28,32 @@ $(function() {
 	var buttons = $(".bottomButton");
 	touch.on(edit, "tap", function() {
 		var txt = edit.html();
-		switch(txt){
-			case "编辑" :{
-				edit.html("取消编辑");
-				buttons.css("display", "inline-flex");
-					icon.each(function(i, e) {
+		if(txt == "取消编辑") {
+			edit.html("编辑");
+			buttons.css("display", "none");
+
+		} else {
+			edit.html("取消编辑");
+			buttons.css("display", "inline-flex");
+
+		}
+	});
+	//点击单个勾选框
+	//点击一键取消收藏 
+	icon.each(function(i, e) {
 		touch.on(e, "tap", function() {
 			if(e.style.color == colorAft) {
 				e.style.color = colorBef;
 			} else {
-				touch.on(rightBotton, "tap", function() {		
+				touch.on(rightBotton, "tap", function() {
 					buttons.css("display", "none");
 					edit.html("编辑");
-					e.parentElement.parentElement.parentElement.remove();					
+					e.parentElement.parentElement.parentElement.remove();
 				})
 				e.style.color = colorAft;
 			}
 		})
 	})
-			break;
-			}
-			case "取消编辑" :{
-				edit.html("编辑");
-				buttons.css("display", "none");
-			break;
-			}
-		}
-	});
 
 	//侧滑取消收藏
 	var lis = document.getElementsByClassName("txt-wrap");
@@ -78,26 +77,7 @@ $(function() {
 			e.parentElement.remove();
 		});
 	});
-	
-	//点击单个勾选框
-	//点击一键取消收藏
-//	var content = $("#content");
-//	var rightBotton = $(".rightBotton");
-//	var icon = $(".icon-xuankuang");
-//	icon.each(function(i, e) {
-//		touch.on(e, "tap", function() {
-//			if(e.style.color == colorAft) {
-//				e.style.color = colorBef;
-//			} else {
-//				touch.on(rightBotton, "tap", function() {		
-//					buttons.css("display", "none");
-//					edit.html("编辑");
-//					e.parentElement.parentElement.parentElement.remove();					
-//				})
-//				e.style.color = colorAft;
-//			}
-//		})
-//	})
+
 	//一键取消选择
 	var leftBtn = $(".leftBottton");
 	touch.on(leftBtn, "tap", function() {
@@ -105,7 +85,5 @@ $(function() {
 			icon.css("color", colorBef);
 		};
 	});
-
-	
 
 })
